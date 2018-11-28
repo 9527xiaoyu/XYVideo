@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A425D3A921AE45EC00795282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A425D3A821AE45EC00795282 /* AppDelegate.m */; };
+		A425D3AC21AE45EC00795282 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A425D3AB21AE45EC00795282 /* ViewController.m */; };
+		A425D3AF21AE45EC00795282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A425D3AD21AE45EC00795282 /* Main.storyboard */; };
+		A425D3B121AE45ED00795282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A425D3B021AE45ED00795282 /* Assets.xcassets */; };
+		A425D3B421AE45ED00795282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A425D3B221AE45ED00795282 /* LaunchScreen.storyboard */; };
+		A425D3B721AE45ED00795282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A425D3B621AE45ED00795282 /* main.m */; };
+		A425D3C121AE45ED00795282 /* XYVideo_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A425D3C021AE45ED00795282 /* XYVideo_iosTests.m */; };
+		A425D3CC21AE45ED00795282 /* XYVideo_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A425D3CB21AE45ED00795282 /* XYVideo_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A425D3BD21AE45ED00795282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A425D39C21AE45EC00795282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A425D3A321AE45EC00795282;
+			remoteInfo = "XYVideo-ios";
+		};
+		A425D3C821AE45ED00795282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A425D39C21AE45EC00795282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A425D3A321AE45EC00795282;
+			remoteInfo = "XYVideo-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A425D3A421AE45EC00795282 /* XYVideo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XYVideo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A425D3A721AE45EC00795282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A425D3A821AE45EC00795282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A425D3AA21AE45EC00795282 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A425D3AB21AE45EC00795282 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A425D3AE21AE45EC00795282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A425D3B021AE45ED00795282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A425D3B321AE45ED00795282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A425D3B521AE45ED00795282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A425D3B621AE45ED00795282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A425D3BC21AE45ED00795282 /* XYVideo-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XYVideo-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A425D3C021AE45ED00795282 /* XYVideo_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYVideo_iosTests.m; sourceTree = "<group>"; };
+		A425D3C221AE45ED00795282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A425D3C721AE45ED00795282 /* XYVideo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XYVideo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A425D3CB21AE45ED00795282 /* XYVideo_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYVideo_iosUITests.m; sourceTree = "<group>"; };
+		A425D3CD21AE45ED00795282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A425D3A121AE45EC00795282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A425D3B921AE45ED00795282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A425D3C421AE45ED00795282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A425D39B21AE45EC00795282 = {
+			isa = PBXGroup;
+			children = (
+				A425D3A621AE45EC00795282 /* XYVideo-ios */,
+				A425D3BF21AE45ED00795282 /* XYVideo-iosTests */,
+				A425D3CA21AE45ED00795282 /* XYVideo-iosUITests */,
+				A425D3A521AE45EC00795282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A425D3A521AE45EC00795282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A425D3A421AE45EC00795282 /* XYVideo-ios.app */,
+				A425D3BC21AE45ED00795282 /* XYVideo-iosTests.xctest */,
+				A425D3C721AE45ED00795282 /* XYVideo-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A425D3A621AE45EC00795282 /* XYVideo-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A425D3A721AE45EC00795282 /* AppDelegate.h */,
+				A425D3A821AE45EC00795282 /* AppDelegate.m */,
+				A425D3AA21AE45EC00795282 /* ViewController.h */,
+				A425D3AB21AE45EC00795282 /* ViewController.m */,
+				A425D3AD21AE45EC00795282 /* Main.storyboard */,
+				A425D3B021AE45ED00795282 /* Assets.xcassets */,
+				A425D3B221AE45ED00795282 /* LaunchScreen.storyboard */,
+				A425D3B521AE45ED00795282 /* Info.plist */,
+				A425D3B621AE45ED00795282 /* main.m */,
+			);
+			path = "XYVideo-ios";
+			sourceTree = "<group>";
+		};
+		A425D3BF21AE45ED00795282 /* XYVideo-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A425D3C021AE45ED00795282 /* XYVideo_iosTests.m */,
+				A425D3C221AE45ED00795282 /* Info.plist */,
+			);
+			path = "XYVideo-iosTests";
+			sourceTree = "<group>";
+		};
+		A425D3CA21AE45ED00795282 /* XYVideo-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A425D3CB21AE45ED00795282 /* XYVideo_iosUITests.m */,
+				A425D3CD21AE45ED00795282 /* Info.plist */,
+			);
+			path = "XYVideo-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A425D3A321AE45EC00795282 /* XYVideo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A425D3D021AE45ED00795282 /* Build configuration list for PBXNativeTarget "XYVideo-ios" */;
+			buildPhases = (
+				A425D3A021AE45EC00795282 /* Sources */,
+				A425D3A121AE45EC00795282 /* Frameworks */,
+				A425D3A221AE45EC00795282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XYVideo-ios";
+			productName = "XYVideo-ios";
+			productReference = A425D3A421AE45EC00795282 /* XYVideo-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A425D3BB21AE45ED00795282 /* XYVideo-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A425D3D321AE45ED00795282 /* Build configuration list for PBXNativeTarget "XYVideo-iosTests" */;
+			buildPhases = (
+				A425D3B821AE45ED00795282 /* Sources */,
+				A425D3B921AE45ED00795282 /* Frameworks */,
+				A425D3BA21AE45ED00795282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A425D3BE21AE45ED00795282 /* PBXTargetDependency */,
+			);
+			name = "XYVideo-iosTests";
+			productName = "XYVideo-iosTests";
+			productReference = A425D3BC21AE45ED00795282 /* XYVideo-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A425D3C621AE45ED00795282 /* XYVideo-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A425D3D621AE45ED00795282 /* Build configuration list for PBXNativeTarget "XYVideo-iosUITests" */;
+			buildPhases = (
+				A425D3C321AE45ED00795282 /* Sources */,
+				A425D3C421AE45ED00795282 /* Frameworks */,
+				A425D3C521AE45ED00795282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A425D3C921AE45ED00795282 /* PBXTargetDependency */,
+			);
+			name = "XYVideo-iosUITests";
+			productName = "XYVideo-iosUITests";
+			productReference = A425D3C721AE45ED00795282 /* XYVideo-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A425D39C21AE45EC00795282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.ywart;
+				TargetAttributes = {
+					A425D3A321AE45EC00795282 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A425D3BB21AE45ED00795282 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A425D3A321AE45EC00795282;
+					};
+					A425D3C621AE45ED00795282 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A425D3A321AE45EC00795282;
+					};
+				};
+			};
+			buildConfigurationList = A425D39F21AE45EC00795282 /* Build configuration list for PBXProject "XYVideo-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A425D39B21AE45EC00795282;
+			productRefGroup = A425D3A521AE45EC00795282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A425D3A321AE45EC00795282 /* XYVideo-ios */,
+				A425D3BB21AE45ED00795282 /* XYVideo-iosTests */,
+				A425D3C621AE45ED00795282 /* XYVideo-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A425D3A221AE45EC00795282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A425D3B421AE45ED00795282 /* LaunchScreen.storyboard in Resources */,
+				A425D3B121AE45ED00795282 /* Assets.xcassets in Resources */,
+				A425D3AF21AE45EC00795282 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A425D3BA21AE45ED00795282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A425D3C521AE45ED00795282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A425D3A021AE45EC00795282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A425D3AC21AE45EC00795282 /* ViewController.m in Sources */,
+				A425D3B721AE45ED00795282 /* main.m in Sources */,
+				A425D3A921AE45EC00795282 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A425D3B821AE45ED00795282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A425D3C121AE45ED00795282 /* XYVideo_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A425D3C321AE45ED00795282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A425D3CC21AE45ED00795282 /* XYVideo_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A425D3BE21AE45ED00795282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A425D3A321AE45EC00795282 /* XYVideo-ios */;
+			targetProxy = A425D3BD21AE45ED00795282 /* PBXContainerItemProxy */;
+		};
+		A425D3C921AE45ED00795282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A425D3A321AE45EC00795282 /* XYVideo-ios */;
+			targetProxy = A425D3C821AE45ED00795282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A425D3AD21AE45EC00795282 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A425D3AE21AE45EC00795282 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A425D3B221AE45ED00795282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A425D3B321AE45ED00795282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A425D3CE21AE45ED00795282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A425D3CF21AE45ED00795282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A425D3D121AE45ED00795282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XYVideo-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ywart.XYVideo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A425D3D221AE45ED00795282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XYVideo-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ywart.XYVideo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A425D3D421AE45ED00795282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XYVideo-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ywart.XYVideo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYVideo-ios.app/XYVideo-ios";
+			};
+			name = Debug;
+		};
+		A425D3D521AE45ED00795282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XYVideo-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ywart.XYVideo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYVideo-ios.app/XYVideo-ios";
+			};
+			name = Release;
+		};
+		A425D3D721AE45ED00795282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XYVideo-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ywart.XYVideo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XYVideo-ios";
+			};
+			name = Debug;
+		};
+		A425D3D821AE45ED00795282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XYVideo-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ywart.XYVideo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XYVideo-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A425D39F21AE45EC00795282 /* Build configuration list for PBXProject "XYVideo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A425D3CE21AE45ED00795282 /* Debug */,
+				A425D3CF21AE45ED00795282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A425D3D021AE45ED00795282 /* Build configuration list for PBXNativeTarget "XYVideo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A425D3D121AE45ED00795282 /* Debug */,
+				A425D3D221AE45ED00795282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A425D3D321AE45ED00795282 /* Build configuration list for PBXNativeTarget "XYVideo-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A425D3D421AE45ED00795282 /* Debug */,
+				A425D3D521AE45ED00795282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A425D3D621AE45ED00795282 /* Build configuration list for PBXNativeTarget "XYVideo-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A425D3D721AE45ED00795282 /* Debug */,
+				A425D3D821AE45ED00795282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A425D39C21AE45EC00795282 /* Project object */;
+}
